@@ -1,0 +1,77 @@
+
+
+.Redressed{
+	font-family:'Redressed', cursive;
+	color: white;
+}
+.merriweather{
+	font-family: 'Merriweather',serif;
+}
+.merriweather .card-body{
+	padding: 0 0 0  2rem;
+}
+.cc-navbar{
+	background-color: rgba(0, 0,0, 0.84);
+	font-family: 'Merriweather',serif; 
+	box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+	z-index: 100;
+}
+.cc-navbar .navbar-brand{
+	color: var(--bs-teal);
+	font-size: 25px;
+}
+.cc-navbar .nav-link{
+	border-bottom: 2px solid transparent;
+	transition: padding-bottom 0.5s, border-color 0.5s ;
+}
+.cc-navbar .nav-link:hover{
+	border-color: var(--bs-teal);
+	padding-bottom: 20px;
+}
+.btn-order{
+	color: var(--bs-teal);
+	border-color: var(--bs-teal);
+	transition: 0.5s;
+}
+.btn-order:hover,.btn-order:active{
+	color: #fff ;
+	background-color: var(--bs-teal);
+}
+.banner,.order-form{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/banniere.jpg") center center fixed no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+.banner .banner-desc{
+	font-weight: 400;
+	font-size: 48px;
+}
+.cc-menu{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/Carousel/carousel4.jpg") center center fixed no-repeat;
+	background-size: cover;
+	height: 1200px;
+}
+.order-form{
+	padding: 25px 0px;
+	height: 450px;
+}
+.merriweather .card-text{
+line-height: 2;
+font-size: 18px;
+
+}
+.merriweather .card-title{
+	font-weight: bold;
+    font-size: 24px;
+	}
+	.merriweather .card-t{
+		height:fit-content;
+	}
+	.merriweather .card-t img{
+		padding-bottom: 5px;
+width: 100%;
+height:300px
+	}
+	.merriweather .card-t .card-text{
+font-size: 16px;
+	}

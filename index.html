@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Redressed&display=swap" rel="stylesheet">
+    <!-- Font awesome cdn CSS-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <title>bootstrap_project</title>
+</head>
+<body>
+  <!-- navbar -->
+    <nav class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
+        <div class="container-fluid ms-auto">
+          <a class="navbar-brand text-uppercase mx-4 py-3 fw-bolder Redressed"  href="#">LE GOÛT DU PÉCHÉ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
+              <li class="nav-item pe-4">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item pe-4">
+                <a class="nav-link" href="#">Découvrir</a>
+              </li>
+            
+              <li class="nav-item pe-4">
+                <a class="nav-link" href="#">Les classiques</a>
+              </li>
+              <li class="nav-item pe-4">
+                <a class="btn btn-order rounded-0" rounded-0 href="#">Passer la commande </a>
+              </li>
+          </div>
+        </div>
+       </div>
+      </nav>
+      <!-- end navbar -->
+      <!-- banner -->
+      <section class="banner pt-5 d-flex align-items-center justify-content-center">
+        <div class="container py-5 my-5">
+          <div class="row">
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-6  ">
+              <h1  class="py-3 text-capitalize lh-lg Redressed banner-desc">Restaurant multi-saveurs à <br />
+                votre goût dans la ville de Toulouse-Paris</h1>
+                <button class="btn btn-order rounded-0 btn-lg me-5" >Commander Maintenant</button>
+                <button class=" btn btn-outline-info rounded-0 btn-lg" >Reserver</button>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end navbar -->
+      <section class="availlable  merriweather  py-5 ">
+        <div class="container">
+          <div class="row">
+            <div class="card  border-0 rounded-0 ">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img src="assets/img/banniere6.jpg" class="img-fluid rounded-0" alt="...">
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h5 class="card-title">La Margheritae</h5>
+                    <p class="card-text">La Margherita est une pizza très populaire de la région italienne. Pour concevoir cette spécialité napolitaine, vous aurez besoin de to
+
+                      C’est la pizza la plus simple qui soit, mais en déguster une « vraie » en Italie, cuite au four, est un parcours culinaire extraordinaire.</p>
+                    <p class="card-text"><a href="#" class="btn text-muted">Découvrir le met</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card my-5 border-0 rounded-0 ">
+              <div class="row g-0">           
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h5 class="card-title">La patrimoine</h5>
+                    <p class="card-text">Le patrimoine français ne se résume pas à une liste de monuments à visiter. Il regroupe également des spécialités culinaires, souvent attachées à certaines régions, parfois transmises de génération en génération. Petit tour de France des spécialités culinaires.</p>
+                    <p class="card-text"><a href="#" class="btn text-muted">Découvrir le met</a></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div id="carouselExampleIndicators" class="carousel slide" style="width: fit-content;" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" style="height: 300px;">
+                      <div class="carousel-item  active">
+                        <img src="assets/img/Carousel/carousel1.jpg" class="d-block w-100 h-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/Carousel/carousel2.jpg" class="d-block w-100 h-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/Carousel/carousel3.jpg" class="d-block w-100 h-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0 rounded-0 ">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img src="assets/img/cassoulet-modif-1.jpg" class="img-fluid rounded-0" alt="...">
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h5 class="card-title">Cassolet</h5>
+                    <p class="card-text">Ce n’est probablement pas le plat le plus léger que vous pourrez déguster en France. Originaire du Languedoc-Roussillon, ce plat est composé de haricots blancs, de cuisses de canard et de viande de porc (sous différentes formes).
+
+                      Consommé pendant des siècles par les familles paysannes, les Français le cuisinent aujourd’hui pour réunir leur famille. </p>
+                    <p class="card-text"><a href="#" class="btn text-muted">Découvrir le met</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cc-menu merriweather py-5">
+        <div class="container">
+          <div class="row">
+            <h3 class="text-center text-light merriweather fs-4 text-capitalize">nos Variétés</h3>
+            <div class="card text-center bg-transparent text-light">
+              <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs d-flex justify-content-center align-items-center bg-transparent Redressed">
+                  <li class="nav-item">
+                    <a class="nav-link active mt-4" aria-current="true" href="#">Tous les Menus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link border text-light mt-4" aria-current="true" href="#">Petit Déjeuné</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light mx-4 mt-4" aria-current="true" href="#">Saveurs africaines</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light mt-4" aria-current="true" href="#">L'occident</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body Redressed mx-4 mt-4 ">
+                <h5 class="card-title fs-4 ">Quelques plats traditionelle </h5>
+                <p class="card-text fs-4 mb-4">Les plats typiquement français à essayer absolument.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card card-t">
+                <img src="assets/img/huîtres.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Huîtres</h5>
+                  <p class="card-text">Ce coquillage peut se consommer chaud, mais les amateurs le préfère généralement cru et vivant.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-t">
+                <img src="assets/img/mouclade-charentaise.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mouclade charentaise</h5>
+                  <p class="card-text"> Les nombreux visiteurs, charmés par les spécialités culinaires de la région, réalisent chez eux cette recette goûteuse.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-sm-none d-md-block">
+              <div class="card card-t">
+                <img src="assets/img/Gratin_dauphinois.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gratin dophinois</h5>
+                  <p class="card-text">Dans la région de Grenoble, un autre plat hivernal est devenu incontournable. Il s’agit du gratin dauphinois.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-sm-none d-md-block">
+              <div class="card card-t">
+                <img src="assets/img/cuisses-de-grenouilles-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cuisses de grenouilles</h5>
+                  <p class="card-text">La chair est délicate et le goût proche de celui de la volaille tout en étant moelleuse.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section  class="cc-carousel bg-dark text-light text-center w-100 py-5">
+              <div class="container">
+                <div class="row">
+                  <h1 class="my-4 text-uppercase">les Délices Interdits</h1>
+                  <p class="mb-5"> Je partage des recettes faciles, économiques, réussies, n'hésitez pas à les éssayer.</p>
+                </div>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/img/Carousel/carousel1.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block d-none ">
+                        <h5 >Le gout de la légèreté</h5>
+                        <p>Parce que gourmandise et légèreté ne sont pas forcément incompatibles, apprenez à faire rimer saveur et minceur.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/Carousel/carousel2.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Un décors qui facilite la digestion</h5>
+                        <p>nettoyer son foie avec certains aliments</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/Carousel/carousel3.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Un environnement calme et décontractant</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+      </section>
+      <section class="order-form">
+        <div class="container">
+          <h2 class="merriweather text-center mb-4 py-4 text-light">passer une Commande </h2>
+          <form>
+            <div class="row">
+              <div class="col-6 col-sm">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"><i style="color: var(--bs-teal);" class="fas fa-user"></i></span>
+                  <input type="text" class="form-control" placeholder="Votre Nom" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                  <label class="input-group-text" style="color: var(--bs-teal);" for="inputGroupSelect01"><i class="fas fa-utensils"> </i></label>
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Choisir un menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="input-group mb-3">
+                  <label  style="color: var(--bs-teal);" class="input-group-text" for="inputGroupSelect01"><i class="fas fa-sort-numeric-up-alt"></i></label>
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Nombre de Personnes</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-6 col-sm">
+                <div class="input-group mb-3">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Votre Email" aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1"><i style="color: var(--bs-teal);" class="fas fa-at"></i></span>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control"  placeholder="Votre Numéro de Télephone" aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone" style="color: var(--bs-teal);"></i></span>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Adresse Zone Ex:: Bordj Bounaama" aria-label="" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1"><i style="color: var(--bs-teal);" class="fas fa-home"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="mb-5 input-group  " style="height: 15px;">
+                <span class="input-group-text" >précisez le nombre de personne</span>
+                <textarea class="form-control" style="height: 25px;" aria-label="With textarea" placeholder="Ex: 15"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-group">
+                <span class="input-group-text" >précisez le nombre de personne</span>
+                <textarea class="form-control" style="height: 20px;" aria-label="With textarea" placeholder="Ex: 15"></textarea>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- footer -->
+   
+      <section class="cc-footer py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 col-sm">
+              <h6 class="Redressed ps-3 fs-5" style="color: #000;">service de réclamation</h6>
+              <nav class="nav flex-column">
+                <a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">+213 675254251</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">+213 555802911</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">024243526</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary disabled" href="#" tabindex="-1" aria-disabled="true"
+                  >goutdupeche@gmail.com</a
+                >
+              </nav>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm">
+              <h6 class="Redressed ps-3 fs-5" style="color: #000;">Nos Partenaire</h6>
+              <nav class="nav flex-column">
+                <a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">amine food</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">Linda cuisine</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">Gateaux des fetes</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary disabled" href="#" tabindex="-1" aria-disabled="true"
+                  >Faste Food Issam</a
+                >
+              </nav>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm">
+              <h6 class="Redressed ps-3 fs-5" style="color: #000;">Liens utiles</h6>
+              <nav class="nav flex-column">
+                <a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">places familials</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">nos partenaires</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">nos clients</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary disabled" href="#" tabindex="-1" aria-disabled="true"
+                  >cafféteria</a
+                >
+              </nav>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm">
+              <h6 class="Redressed ps-3 fs-5" style="color: #000;">Nos Offres</h6>
+              <nav class="nav flex-column">
+                <a class="nav-link py-1 merriweather fs-6 text-secondary active" aria-current="page" href="#">ouvert 24/24</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">livraisans a domicil</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary" href="#">votre plats préfirés</a>
+                <a class="nav-link py-1 merriweather fs-6 text-secondary disabled" href="#" tabindex="-1" aria-disabled="true"
+                  >Où nous trouver</a
+                >
+              </nav>
+            </div>
+            <div class="col-12 text-center  text-muted">
+              &copy; Le goût du péché
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Copyright
+            </div>
+            <div class="col-12 text-center  text-muted" style="font-size: 14px; margin-top: 3px;">Conçu et Réaliser par Djilali Boudinar</div>
+          </div>
+        </div>
+      </section>
+         <!-- end footer -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
